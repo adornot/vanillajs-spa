@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: #4f9eda;
+  transition: color 0.3 ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #56a8ce;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.error {
+  padding: 1rem;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #c32030;
+}
+
+.error mark {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  color: #fff;
+  background-color: #1c77bd;
+}
+
+.form-search {
+  margin: auto;
+  text-align: center;
+}
+
+.form-search input {
+  display: block;
+  margin: auto;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.grid-fluid {
+  margin: 1rem auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.header {
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background: #fff;
+}
+
+.header > * {
+  margin: 1rem auto;
+}
+
+.loader {
+  margin: 1rem auto;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+.post-card {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 90%;
+  background-color: #eceff1;
+}
+
+.post-card p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-page {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 90%;
+  background-color: #eceff1;
+}
+
+.post-page > aside {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.post-page hr {
+  border: thin solid #cfd8dc;
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.post-page time {
+  margin: 1rem auto;
+  display: block;
+}
+
+.post-page > article {
+  padding: 0 2rem;
+}
+
+.post-page audio,
+.post-page figure,
+.post-page img,
+.post-page video,
+.post-page iframe {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
